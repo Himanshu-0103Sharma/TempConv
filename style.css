@@ -1,0 +1,92 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  overflow-x: hidden;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+input,select{
+  margin-left: 10px;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+nav{
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 13px;
+}
+
+.logo{
+  cursor: pointer;
+  font-size: 22px;
+  font-family: 'Teko', sans-serif;
+}
+
+
+.heading{
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+}
+
+.heading h1{
+  margin: 100px 0px 0px 0px;
+  font-family: 'Teko', sans-serif;
+  font-size: 72px;
+}
+
+.heading h2{
+  margin-top: -5px;
+  color: grey;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+main{
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.form h3{
+  margin: 20px;
+  font-family: 'Georama', sans-serif;
+}
+
+
+.from,.to{
+  display: inline-block;
+  padding: 50px;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  margin-right: -10px;
+  margin-bottom: 40px;
+}
+
+.input{
+  display: inline;
+  margin: 0px 20px 20px 20px;
+}
+
+.inpsubmit{
+  display: inline-block;
+  margin-left: -27px;
+  margin-bottom: 50px;
+}
+
+.inpsubmit input{
+  background: black;
+  color: white;
+}
+
+.ans{
+  color:  rgb(0,177,64);
+}
